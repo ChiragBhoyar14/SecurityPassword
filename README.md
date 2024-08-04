@@ -18,4 +18,4 @@ This project is a simple web-based tool designed for encrypting and decrypting t
 - **JavaScript**: Encryption and decryption logic.
 
 ## Visit
---**URL**:Security-password-one.vercel.app/EncyptPassword.html
+- **URL**:Security-password-one.vercel.app/EncyptPassword.html
