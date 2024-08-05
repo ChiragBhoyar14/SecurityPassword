@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt/Decrypt Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encrypt/Decrypt Text</h1>
+        <label for="secretKey">Secret Key:</label>
+        <input type="password" id="secretKey" name="secretKey" placeholder="Enter your secret key">
+    
+        <label for="IV">IV:</label>
+        <input type="password" id="iv" name="iv" placeholder="Enter your IV key">
+    
+        <label for="textInput">Text:</label>
+        <input type="text" id="textInput" name="textInput" placeholder="Enter your text">
+    
+        <div class="button-container">
+            <input type="button" id="encryptButton" name="encryptButton" value="Encrypt">
+            <input type="button" id="decryptButton" name="decryptButton" value="Decrypt">
+        </div>
+        
+        <label for="encryptedText">Encrypted Text:</label>
+        <input type="text" id="encryptedText" name="encryptedText" placeholder="Encrypted text will appear here">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
